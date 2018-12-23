@@ -10,7 +10,7 @@
 		
 
 <head><meta name="generator" content="Hexo 3.8.0">
-	<title>博客搭建记录</title>
+	<title>终于搭建完无线打印功能了</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="apple-mobile-web-app-title" content="Amaze UI">
@@ -55,7 +55,7 @@
 
 		
 
-			<p class="page-name">当前文章&nbsp;:&nbsp;《博客搭建记录》</p>
+			<p class="page-name">当前文章&nbsp;:&nbsp;《终于搭建完无线打印功能了》</p>
 
 		
 	
@@ -164,8 +164,8 @@
 					
 					
 	
-		<a href="/2018/12/08/博客搭建记录/" itemprop="url">		
-			博客搭建记录		
+		<a href="/2018/12/23/终于搭建完无线打印功能了/" itemprop="url">		
+			终于搭建完无线打印功能了		
 		</a>
 	
 
@@ -174,9 +174,9 @@
 				<p class="am-article-meta blog-text-center">
 					<span>
 						<i class="fa fa-clock-o"></i>
-						<a href="/2018/12/08/博客搭建记录/" itemprop="url">
-	<time datetime="2018-12-08T00:16:19.000Z" itemprop="datePublished">
-  		2018-12-08
+						<a href="/2018/12/23/终于搭建完无线打印功能了/" itemprop="url">
+	<time datetime="2018-12-23T11:23:47.000Z" itemprop="datePublished">
+  		2018-12-23
   </time>
 </a>    
 &nbsp;
@@ -186,7 +186,9 @@
 						
 							<i class="fa fa-tags"></i>
 							
-								<a href="#说明" title="说明" rel="1">说明</a>&nbsp;
+								<a href="#生活" title="生活" rel="1">生活</a>&nbsp;
+							
+								<a href="#技术" title="技术" rel="1">技术</a>&nbsp;
 							
 						
 					</span>
@@ -196,114 +198,12 @@
 			<div class="am-article-bd">
 				<div class="content" id="post-content">
 					
-						<p>#写在开始，以下不要操作</p>
-<ol>
-<li>不要试图研究sitemap，太浪费时间，每次必出错，出错还不会修，千万千万不要弄这个，以博客的访问量真没必要研究这个，谨记～谨记</li>
-</ol>
-<p>##更新记录</p>
-<p>2018年12月9日 昨天coding服务器崩了，决定还是在GitHub上搭建hexo，GitHub上搭建的法林导航一直没发现无法访问的情况。还是GitHub还是相对稳定的。</p>
-<p>##文章编写说明</p>
-<p>###Front-matter设置</p>
-<pre><code>---
-title: 主题使用说明
-date: 2018-08-27 20:16:19
-cover: /img/1.jpg
-categories: HEXO博客
-tags:
-    - 说明
-    - other tag
----
-</code></pre><p>###配图网站</p>
-<p>1.<a href="https://unsplash.com/" target="_blank" rel="noopener">https://unsplash.com/</a> （推荐）</p>
-<p>2.<a href="https://pixabay.com/" target="_blank" rel="noopener">https://pixabay.com/</a></p>
-<p>3.<a href="https://www.designrush.com/resources/publicdomainarchive/" target="_blank" rel="noopener">https://www.designrush.com/resources/publicdomainarchive/</a></p>
-<p>4.<a href="https://foter.com/" target="_blank" rel="noopener">https://foter.com/</a></p>
-<p>5.<a href="http://photopin.com/" target="_blank" rel="noopener">http://photopin.com/</a></p>
-<p>6.<a href="https://gratisography.com/" target="_blank" rel="noopener">https://gratisography.com/</a></p>
-<p>7.<a href="https://www.ssyer.com/home" target="_blank" rel="noopener">https://www.ssyer.com/home</a> (国产)</p>
-<p>###常用命令</p>
-<pre><code>Create a new post
-    $ hexo new &quot;My New Post&quot;
-    $ hexo server
+						<p>最近发现不会的有点多，房地产、清算、并购、改制，这些以前都还可以的，现在知识量已经严重不足了，需要再恶补一下，上一个台阶了。</p>
+<p>有线打印太不方便，synology还不支持这个打印机，路由器也不支持，汗，之前折腾了很久很多次，都没有成功，路由器能刷openwrt，但怕成砖，而且看上去挺复杂，一直拖着没去弄，昨天晚上看了看教程，发现也不是很难，命令行其实没多少，讲解和bug修复的占一大部分，现在的本子都不带网线插口了，幸好之前有个古董本子，拿出来充电，开刷，非常快，几分钟搞定！</p>
+<p>发现了一个问题，synolgoy只能得到一个ipv6的地址，ipv4没有。发现现在真的不如之前了，问题到今天才发现搞定，早就应该知道当初为了稳定，给nas绑定了一个固定的ipv4地址，自然无法取得了。用ipv6地址登陆到nas，然后修改ipv4地址，OK，搞定。</p>
+<p>当初刷第三方固件的想法很简单，就是刷完了，插上打印机u口，没想到 想简单了，配置了一下，发现也不太好用，或者说不能用。<br>随便在Google上搜索，发现了Virtualhere这个软件，非常棒，而且有nas版本的服务端，根据nas的CPU下载的对应的版本，然后安装，macbook安装客户端，连接！ 非常好，跟本地的一样，使用同一个记录。而且还能支持扫描。</p>
+<p>试用了一下午，打印了几次，都OK，但手机上无法打印，也不是硬性需求，不继续研究了。</p>
 
-Generate static files
-    $ hexo generate
-    ### Deploy to remote sites
-    $ hexo deploy
-</code></pre><p>##搭建记录</p>
-<p>###sitemap文件</p>
-<pre><code>不要操作，弄不好就出错！！！
-首先给你的文章生成sitemap文件
-npm install hexo-generator-sitemap --save #sitemap.xml适合提交给谷歌搜素引擎
-npm install hexo-generator-baidu-sitemap --save #baidusitemap.xml适合提交百度搜索引擎
-然后在站点配置文件_config.yml中添加以下代码
- 自动生成sitemap
-sitemap:
-path: sitemap.xml
-baidusitemap:
-path: baidusitemap.xml
-</code></pre><p>###robots.txt文件</p>
-<pre><code>在source文件夹中新建文件robots.txt，可以参考我的：
-自动生成sitemap
-sitemap:
-path: sitemap.xml
-baidusitemap:
-path: baidusitemap.xml
-</code></pre><p>###相关命令</p>
-<pre><code>#hexo命令
-brew install npm
-node -v
-brew install git
-git --version
-sudo npm install -g hexo-cli      不加sudo权限不够
-新建文件夹—进入
-
-git config –-global user.name “”  //(“”的账号是刚才Github里面自己注册的账号)
-git config –-global user.email “” //(&quot;&quot;的邮箱是你自己注册的邮箱)
-
-hexo init
-sudo npm install
-
-
-#出错：
-sudo npm install hexo-server --save
-#改端口：
-sudo hexo s -p 5000
-#未发现git：
-sudo npm install hexo-deployer-git --save
-#发布：
-$ sudo hexo clean
-$ sudo hexo generate  生成静态文件
-$ sudo hexo deploy 文件生成后立即部署网站
-$hexo server
-
-
-#主题
-git clone https://github.com/Sariay/hexo-theme-Annie.git
-
-
-#安装RSS插件
-sudo npm install hexo-generator-feed --save
-编辑 myblog 目录下的 _config.yml，添加如下代码开启 RSS 功能：
-rss: /atom.xml
-
-
-#BUG
-1、若执行 hexo 命令时出现如下警告信息：
-{ [Error: Cannot find module &#39;./build/Release/DTraceProviderBindings&#39;] code: &#39;MODULE_NOT_FOUND&#39; }
-{ [Error: Cannot find module &#39;./build/default/DTraceProviderBindings&#39;] code: &#39;MODULE_NOT_FOUND&#39; }
-{ [Error: Cannot find module &#39;./build/Debug/DTraceProviderBindings&#39;] code: &#39;MODULE_NOT_FOUND&#39; }
-可以尝试执行以下命令修复：
-sudo npm install hexo --no-optional
-
-
-#卸载
-npm uninstall hexo-cli -g #3.0.0版本执行
-npm uninstall hexo -g #之前版本执行
-npm uninstall hexo
-npm --registry https://registry.npm.taobao.org
-npm install hexo -g
-</code></pre>
 					
 				</div>
 			</div>
@@ -311,13 +211,13 @@ npm install hexo -g
 
 		<ul class="am-pagination">
     
-    	<li class="am-pagination-prev">
-   		<a class="pull-left" href="/2018/12/09/Markdown/" title="GitHub Flavored Markdown">
-      		&laquo; 上一篇
+	
+		<li class="am-pagination-next">
+		<a class="pull-right" href="/2018/12/15/法律文书命名及校对指引/" title="法律文书命名及校对指引">
+			下一篇 &raquo;
 		</a>
 		</li>
-	
-	
+	 
  </ul>
         
 
