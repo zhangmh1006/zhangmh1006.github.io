@@ -1,4 +1,4 @@
-	/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*!  PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
 
 .pswp {
 	display: none;
@@ -10,7 +10,7 @@
 	overflow: hidden;
 	-ms-touch-action: none;
 	touch-action: none;
-	z-index: 1500px;
+	z-index: 1500;
 	-webkit-text-size-adjust: 100%;
 	-webkit-backface-visibility: hidden;
 	outline: none
@@ -505,7 +505,7 @@ a.pswp__share--download:hover {
 }
 
 .pswp__preloader--active .pswp__preloader__icn {
-	background: url(images/preloader.gif) 0 0 no-repeat
+	background: url(https://zmhemail.oss-cn-beijing.aliyuncs.com/syn/preloader.gif) 0 0 no-repeat
 }
 
 .pswp--css_animation .pswp__preloader--active {
@@ -820,8 +820,7 @@ a.pswp__share--download:hover {
 .natural-gallery .natural-gallery-header .natural-gallery-searchTerm {
 	border: none;
 	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	min-width: 125px;
+	border-bottom-style: solid
 }
 
 .natural-gallery .natural-gallery-header .bar {
@@ -1030,7 +1029,7 @@ a.pswp__share--download:hover {
 }
 
 .pswp {
-	z-index: 999
+	z-index: 9999999
 }
 
 .pswp .pswp__caption__center {
@@ -1128,3 +1127,4 @@ a.pswp__share--download:hover {
 		transform: scale(1);
 		opacity: .05
 	}
+}
