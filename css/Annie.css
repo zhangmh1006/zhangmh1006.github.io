@@ -246,7 +246,7 @@ header #navigation-S ul li a {
 }
 
 header #navigation-S ul li a:hover {
-	color: darkgoldenrod;
+	color: OrangeRed;
 }
 
 header #navigation-S ul li .active {
@@ -605,7 +605,7 @@ footer a {
 }
 
 footer a:hover {
-	color: darkgoldenrod;
+	color: OrangeRed;
 }
 
 footer>.social {
