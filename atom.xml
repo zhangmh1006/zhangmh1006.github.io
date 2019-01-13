@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zmh.email/"/>
-  <updated>2019-01-01T14:47:23.995Z</updated>
+  <updated>2019-01-13T06:27:27.713Z</updated>
   <id>http://zmh.email/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Word（1）</title>
+    <link href="http://zmh.email/2019/01/13/A-Word%EF%BC%881%EF%BC%89/"/>
+    <id>http://zmh.email/2019/01/13/A-Word（1）/</id>
+    <published>2019-01-13T06:23:40.000Z</published>
+    <updated>2019-01-13T06:27:27.713Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>NAIVE, 技术人最傻 B 的地方就是，总觉得靠技术能解决问题。</p></blockquote><p>法律人则表现的更精明一些，能用其他方式解决的一般不会选择法律，因为法律太麻烦，成本太高。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;NAIVE, 技术人最傻 B 的地方就是，总觉得靠技术能解决问题。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;法律人则表现的更精明一些，能用其他方式解决的一般不会选择法律，因为法律太麻烦，成本太高。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://zmh.email/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="一句话" scheme="http://zmh.email/tags/%E4%B8%80%E5%8F%A5%E8%AF%9D/"/>
+    
+  </entry>
   
   <entry>
     <title>2019年阅读汇总</title>

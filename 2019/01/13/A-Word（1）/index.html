@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <title>
     
-      博客搭建记录 | 随便写写
+      A Word（1） | 随便写写
     
   </title>
   <meta name="author" content="zhangmh">
@@ -115,7 +115,7 @@
 				<!-- Page title -->
 				<p>
 					
-						当前文章&nbsp;:&nbsp;《博客搭建记录》
+						当前文章&nbsp;:&nbsp;《A Word（1）》
 					
 				</p>
 				<!-- Progress bar -->
@@ -225,8 +225,8 @@
 	
 	<div class="article-title">
 		
-	<a href="/2018/12/08/博客搭建记录/" itemprop="url">
-		博客搭建记录
+	<a href="/2019/01/13/A-Word（1）/" itemprop="url">
+		A Word（1）
 	</a>
 
 	</div>
@@ -235,17 +235,17 @@
 		<span>
 			
 	发布于
-	<a href="/2018/12/08/博客搭建记录/" itemprop="url">
-		<time datetime="2018-12-08T00:16:19.000Z" itemprop="datePublished">
-	  		2018-12-08
+	<a href="/2019/01/13/A-Word（1）/" itemprop="url">
+		<time datetime="2019-01-13T06:23:40.000Z" itemprop="datePublished">
+	  		2019-01-13
 	  </time>
 	</a> 
 
 	/
 	更新于
-	<a href="/2018/12/08/博客搭建记录/" itemprop="url">
-		<time datetime="2018-12-08T00:16:19.000Z" itemprop="dateUpdated">
-	  		2018-12-31
+	<a href="/2019/01/13/A-Word（1）/" itemprop="url">
+		<time datetime="2019-01-13T06:23:40.000Z" itemprop="dateUpdated">
+	  		2019-01-13
 	  </time>
 	</a> 	
 
@@ -255,8 +255,8 @@
 			<i class="fa fa-tags"></i>
 			
 	
-		<a href="/tags/说明/" class=" ">
-			说明
+		<a href="/tags/一句话/" class=" ">
+			一句话
 		</a>
 	
 		
@@ -269,118 +269,14 @@
 	</div>
 
 	<div class="article-content" id="article-content">
-		<p>#写在开始，以下不要操作</p>
-<ol>
-<li>不要试图研究sitemap，太浪费时间，每次必出错，出错还不会修，千万千万不要弄这个，以博客的访问量真没必要研究这个，谨记～谨记</li>
-<li>在Github上部署，不要考虑coding，不仅不稳定，而且CNAME冲突，不要折腾。</li>
-</ol>
-<p>##更新记录</p>
-<p>2018年12月9日 昨天coding服务器崩了，决定还是在GitHub上搭建hexo，GitHub上搭建的法林导航一直没发现无法访问的情况。还是GitHub还是相对稳定的。</p>
-<p>##文章编写说明</p>
-<p>###Front-matter设置</p>
-<pre><code>---
-title: 主题使用说明
-date: 2018-08-27 20:16:19
-cover: /img/1.jpg
-categories: HEXO博客
-tags:
-    - 说明
-    - other tag
----
-</code></pre><p>###配图网站</p>
-<p>1.<a href="https://unsplash.com/" target="_blank" rel="noopener">https://unsplash.com/</a> （推荐）</p>
-<p>2.<a href="https://pixabay.com/" target="_blank" rel="noopener">https://pixabay.com/</a></p>
-<p>3.<a href="https://www.designrush.com/resources/publicdomainarchive/" target="_blank" rel="noopener">https://www.designrush.com/resources/publicdomainarchive/</a></p>
-<p>4.<a href="https://foter.com/" target="_blank" rel="noopener">https://foter.com/</a></p>
-<p>5.<a href="http://photopin.com/" target="_blank" rel="noopener">http://photopin.com/</a></p>
-<p>6.<a href="https://gratisography.com/" target="_blank" rel="noopener">https://gratisography.com/</a></p>
-<p>7.<a href="https://www.ssyer.com/home" target="_blank" rel="noopener">https://www.ssyer.com/home</a> (国产)</p>
-<p>###常用命令</p>
-<pre><code>Create a new post
-    $ hexo new &quot;My New Post&quot;
-    $ hexo server
-
-Generate static files
-    $ hexo generate
-    ### Deploy to remote sites
-    $ hexo deploy
-</code></pre><p>##搭建记录</p>
-<p>###sitemap文件</p>
-<pre><code>不要操作，弄不好就出错！！！
-首先给你的文章生成sitemap文件
-npm install hexo-generator-sitemap --save #sitemap.xml适合提交给谷歌搜素引擎
-npm install hexo-generator-baidu-sitemap --save #baidusitemap.xml适合提交百度搜索引擎
-然后在站点配置文件_config.yml中添加以下代码
- 自动生成sitemap
-sitemap:
-path: sitemap.xml
-baidusitemap:
-path: baidusitemap.xml
-</code></pre><p>###robots.txt文件</p>
-<pre><code>在source文件夹中新建文件robots.txt，可以参考我的：
-自动生成sitemap
-sitemap:
-path: sitemap.xml
-baidusitemap:
-path: baidusitemap.xml
-</code></pre><p>###相关命令</p>
-<pre><code>#hexo命令
-brew install npm
-node -v
-brew install git
-git --version
-sudo npm install -g hexo-cli      不加sudo权限不够
-新建文件夹—进入
-
-git config –-global user.name “”  //(“”的账号是刚才Github里面自己注册的账号)
-git config –-global user.email “” //(&quot;&quot;的邮箱是你自己注册的邮箱)
-
-hexo init
-sudo npm install
-
-
-#出错：
-sudo npm install hexo-server --save
-#改端口：
-sudo hexo s -p 5000
-#未发现git：
-sudo npm install hexo-deployer-git --save
-#发布：
-$ sudo hexo clean
-$ sudo hexo generate  生成静态文件
-$ sudo hexo deploy 文件生成后立即部署网站
-$hexo server
-
-
-#主题
-git clone https://github.com/Sariay/hexo-theme-Annie.git
-
-
-#安装RSS插件
-sudo npm install hexo-generator-feed --save
-编辑 myblog 目录下的 _config.yml，添加如下代码开启 RSS 功能：
-rss: /atom.xml
-
-
-#BUG
-1、若执行 hexo 命令时出现如下警告信息：
-{ [Error: Cannot find module &#39;./build/Release/DTraceProviderBindings&#39;] code: &#39;MODULE_NOT_FOUND&#39; }
-{ [Error: Cannot find module &#39;./build/default/DTraceProviderBindings&#39;] code: &#39;MODULE_NOT_FOUND&#39; }
-{ [Error: Cannot find module &#39;./build/Debug/DTraceProviderBindings&#39;] code: &#39;MODULE_NOT_FOUND&#39; }
-可以尝试执行以下命令修复：
-sudo npm install hexo --no-optional
-
-
-#卸载
-npm uninstall hexo-cli -g #3.0.0版本执行
-npm uninstall hexo -g #之前版本执行
-npm uninstall hexo
-npm --registry https://registry.npm.taobao.org
-npm install hexo -g
-</code></pre>	
+		<blockquote>
+<p>NAIVE, 技术人最傻 B 的地方就是，总觉得靠技术能解决问题。</p>
+</blockquote>
+<p>法律人则表现的更精明一些，能用其他方式解决的一般不会选择法律，因为法律太麻烦，成本太高。</p>
+	
 	</div>
 	
-	<div id="current-post-cover" data-scr="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/1.jpg"></div>
+	<div id="current-post-cover" data-scr="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/28.jpg"></div>
 
 	<!-- relate post, comment...-->
 	<div class="investment-container">
@@ -394,10 +290,10 @@ npm install hexo -g
 	<span>
 		<a href="javascript: window.scrollTo(0, 0);">返回顶部</a>
 		
-			<a href="/2018/12/09/Markdown/" title="GitHub Flavored Markdown" rel="prev">
-				&laquo;上一篇
-			</a>
 		
+			<a href="/2019/01/01/2019年阅读汇总/" title="2019年阅读汇总" rel="next">
+				下一篇&raquo;
+			</a>
 			
 	</span>
       		
@@ -410,46 +306,6 @@ npm install hexo -g
 
 <div class="relate-post">
 	<ul>
-		
-				<li>
-					<div>
-						<a href="/2018/12/09/Markdown/" title="GitHub Flavored Markdown">
-							GitHub Flavored Markdown
-						</a>
-						<p>
-							
-文章来源：https://raw.githubusercontent.com/guodongxiaren
-
-Annie主题链接
-README该文件用来测试和展示书写README的各种markdown语法。GitHub的markdow...
-						</p>
-					</div>
-
-					<a href="/2018/12/09/Markdown/" title="GitHub Flavored Markdown">				
-						<img src="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/5.jpg" class="relateImg" alt="GitHub Flavored Markdown">
-					</a>
-				</li>											
-		
-		
-				<li>
-					<div>
-						<a href="/2019/01/13/A-Word（1）/" title="A Word（1）">
-							A Word（1）
-						</a>
-						<p>
-							
-NAIVE, 技术人最傻 B 的地方就是，总觉得靠技术能解决问题。
-
-法律人则表现的更精明一些，能用其他方式解决的一般不会选择法律，因为法律太麻烦，成本太高。
-
-						</p>
-					</div>
-
-					<a href="/2019/01/13/A-Word（1）/" title="A Word（1）">				
-						<img src="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/28.jpg" class="relateImg" alt="A Word（1）">
-					</a>
-				</li>											
-		
 		
 				<li>
 					<div>
@@ -607,6 +463,45 @@ NAIVE, 技术人最傻 B 的地方就是，总觉得靠技术能解决问题。
 
 					<a href="/2018/12/11/诉讼策略分析报告（一）/" title="诉讼策略分析报告（一）">				
 						<img src="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/7.jpg" class="relateImg" alt="诉讼策略分析报告（一）">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/2018/12/09/Markdown/" title="GitHub Flavored Markdown">
+							GitHub Flavored Markdown
+						</a>
+						<p>
+							
+文章来源：https://raw.githubusercontent.com/guodongxiaren
+
+Annie主题链接
+README该文件用来测试和展示书写README的各种markdown语法。GitHub的markdow...
+						</p>
+					</div>
+
+					<a href="/2018/12/09/Markdown/" title="GitHub Flavored Markdown">				
+						<img src="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/5.jpg" class="relateImg" alt="GitHub Flavored Markdown">
+					</a>
+				</li>											
+		
+		
+				<li>
+					<div>
+						<a href="/2018/12/08/博客搭建记录/" title="博客搭建记录">
+							博客搭建记录
+						</a>
+						<p>
+							#写在开始，以下不要操作
+
+不要试图研究sitemap，太浪费时间，每次必出错，出错还不会修，千万千万不要弄这个，以博客的访问量真没必要研究这个，谨记～谨记
+在Github上部署，不要考虑coding，不仅不稳定，而且CNAME冲突，...
+						</p>
+					</div>
+
+					<a href="/2018/12/08/博客搭建记录/" title="博客搭建记录">				
+						<img src="https://zmhemail.oss-cn-beijing.aliyuncs.com/note/1.jpg" class="relateImg" alt="博客搭建记录">
 					</a>
 				</li>											
 		
